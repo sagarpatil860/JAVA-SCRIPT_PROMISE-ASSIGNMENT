@@ -15,7 +15,7 @@
             }
             else{
                 console.log("NOW THROWING NEW ERROR");   
-                throw new Error(`YOU ENTERED${q} is not correct, please enter 20 and see magic`) ;
+                throw new Error(`YOU ENTERED ${q} is not correct, please enter 20 and see magic`) ;
             }
             
         }
@@ -35,5 +35,12 @@ p
 .catch(function(errejected){
         console.log("received error");
         console.log(errejected.message);
+        alert("INVALID INPUT");
     }
 )
+
+
+
+for(let i=0;i<=10; i++){
+    document.write(`<b>${i} sagar<b> <br>`);
+    }
