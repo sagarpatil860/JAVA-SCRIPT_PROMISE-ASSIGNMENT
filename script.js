@@ -26,10 +26,10 @@
 p
 .then(
     function(qresolved){
-        for(let i=0;i<qresolved; i++){
-            document.write(i);
-        }
-       
+        for(let i=0;i<= qresolved; i++){
+            document.write(`<b>${i}<b><br><br>`);
+            }
+            alert("success");                 
     }
 )
 .catch(function(errejected){
